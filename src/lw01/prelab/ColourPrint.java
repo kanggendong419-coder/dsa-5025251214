@@ -11,7 +11,7 @@ public class ColourPrint extends PrintJob {
         if (pages <= 10) {
             charge = pages * 1500;
         } else {
-            charge = (10 * 1500) + ((pages - 10) * 1000);
+            charge = (10 * 1500) + ((pages - 10) * 45000);
         }
         charge += 2000; // setup cost per complete copy
         return charge;
